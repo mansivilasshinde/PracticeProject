@@ -18,6 +18,7 @@
 	height: 50px;
 	line-height: 30px;
 	padding: 0px 100px;
+	
 
 }
 .navb ul{
@@ -50,4 +51,12 @@
 	display: inline-block;
 	
 }
+.card{
 
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	align-items: center;
+
+}
