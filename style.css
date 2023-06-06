@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	box-sizing: border-box;
+}
+
+.logo{
+
+	font-size: 30px;
+	font-weight: bold;
+	float: center;
+}
+
+.navb {
+
+	width: 100%;
+	height: 50px;
+	line-height: 30px;
+	padding: 0px 100px;
+
+}
+.navb ul{
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.navb ul:after{
+	content:  "";
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.navb li {
+
+	display: inline-block;
+	list-style: none;
+	float:  left;
+}
+
+.navb li a{
+
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	color: black;
+	display: inline-block;
+	
+}
+
