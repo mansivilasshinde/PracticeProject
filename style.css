@@ -18,6 +18,7 @@ header{
 	font-size: 30px;
 	font-weight: bold;
 	float: center;
+	padding-top: 30px;
 }
 
 .navb {
@@ -26,6 +27,8 @@ header{
 	height: 50px;
 	line-height: 30px;
 	padding: 0px 100px;
+	align-items: center;
+	
 	
 
 }
@@ -34,6 +37,7 @@ header{
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
+	
 }
 
 .navb ul:after{
@@ -41,6 +45,7 @@ header{
 	clear: both;
 	display: block;
 	width: 100%;
+	
 }
 
 .navb li {
@@ -48,6 +53,7 @@ header{
 	display: inline-block;
 	list-style: none;
 	float:  left;
+
 }
 
 .navb li a{
@@ -57,7 +63,7 @@ header{
 	padding: 10px 30px;
 	color: black;
 	display: inline-block;
-	
+
 }
 .card{
 
