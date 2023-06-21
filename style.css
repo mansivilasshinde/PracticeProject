@@ -1,3 +1,5 @@
+
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -13,6 +15,12 @@ header{
 	background-position: center center;
 
 }
+
+.hero{
+
+	background-image: url("img/Layer 10.png");
+}
+
 .logo{
 
 	font-size: 30px;
@@ -27,16 +35,20 @@ header{
 	height: 50px;
 	line-height: 30px;
 	padding: 0px 100px;
-	align-items: center;
-	
-	
+	display: inline-block;
+	text-align: center;
 
+	
 }
 .navb ul{
 	align-items: center;
 	padding: 0px;
 	margin: 0px;
 	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+
+
 	
 }
 
@@ -63,14 +75,8 @@ header{
 	padding: 10px 30px;
 	color: black;
 	display: inline-block;
+	text-decoration: none;
 
-}
-.card{
-
-	margin-left: 50px;
-	margin-right: 50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 
 }
 
@@ -82,3 +88,91 @@ button{
 	border-color: #7D714D;
 	padding: 5px 10px 5px 10px;
 }
+
+
+
+h2{
+
+	font-size: 15px;
+	font-weight: 4s00;
+	font-family: sans-serif;
+}
+
+	/*center of alignmnent*/
+.col-sm{
+
+	align-items: start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.grid{
+
+	display: grid;
+	width: 114em;
+	grid-gap: 6rem;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	align-items: start;
+}
+
+.grid-item{
+
+	background-color: #fffff;
+	border-radius: 0.4rem;
+	overflow: hidden;
+/*	box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1); */
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.grid-item:hover{
+
+	transform: translateY(-0.5%);
+	box-shadow: 0 4rem 8rem rgba(0, 0, 0, 1.5);
+}
+
+.card-img{
+
+	display: block;
+	width: 100%;
+	height: 20rem;
+	object-fit: cover;
+}
+
+.card-content{
+
+	padding: 3rem;
+}
+
+.card-header{
+
+	font-size: 20px;
+	font-weight: 500;
+	color: #0d0d0d;
+	margin-bottom: 1.5rem;
+}
+
+.card-text{
+
+	font-size: 16px;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
+	margin-bottom: 2.5rem;
+	color: yellowgreen;
+}
+
+.card-btn{
+
+	display: block;
+	width: 100%;
+	padding: 1.5rem;
+	font-size: 16px;
+	text-align: center;
+	color: #fffff;
+	background-color: royalblue;
+	border-radius: 0.4rem;
+	border: none;
+	cursor: pointer;
+}
+
