@@ -151,6 +151,7 @@ h2{
 	font-weight: 500;
 	color: #0d0d0d;
 	margin-bottom: 1.5rem;
+	background-color: #7D714D;
 }
 
 .card-text{
@@ -159,20 +160,70 @@ h2{
 	letter-spacing: 0.1rem;
 	line-height: 1.7;
 	margin-bottom: 2.5rem;
-	color: yellowgreen;
+	color: #ffff;
+	background-color: #7D714D;
 }
 
 .card-btn{
 
-	display: block;
-	width: 100%;
-	padding: 1.5rem;
+	display: flex;
+	padding:10px;
 	font-size: 16px;
-	text-align: center;
 	color: #fffff;
 	background-color: royalblue;
 	border-radius: 0.4rem;
 	border: none;
 	cursor: pointer;
+	border-color: #fff;
 }
 
+/* CARD USING FLEX BOX CSS */
+
+.fcontainer{
+
+	/*border: 2px solid red;*/
+	height: 100vh;
+	display: flex;
+
+	/*flex-direction: row;*/
+	/*flex-direction: column;*/
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column-reverse;*/
+
+	justify-content: center;
+	/*justify-content: space-evenly;*/
+	/*justify-content: space-between;*/
+	/*justify-content: flex-start;*/
+	/*justify-content: flex-end;*/
+
+	/*align-items: center;*/
+	/*align-items: flex-end;*/
+	/*align-items: flex-start;*/
+
+	/*flex-wrap: wrap;*/
+	/*flex-wrap: wrap-reverse;*/ this used for the proper set of card or column
+	/*flex-flow: column wrap;*/
+}
+
+.fitem{
+
+	background-color: yellow;
+	border: 1px solid black;
+	margin: 12px;
+	width: 350px;
+	height: 400px;
+}
+
+.item2{
+
+	/*order: 3;*/
+	/*flex-grow: 2;*/
+	/*flex-shrink: 2;*/
+	/*align-self: center;*/
+}
+
+.item1{
+
+	/*order: 5;*/
+	/*flex-grow: 1;*/
+}
